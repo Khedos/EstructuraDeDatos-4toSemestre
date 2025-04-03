@@ -1,8 +1,8 @@
-package ordenamiento;
+package unidad2;
 
 import java.util.Scanner;
 
-public class RanaRecursiva {
+public class problema2_RanaRecursiva {
 static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package ordenamiento;
+package unidad2;
 
 import java.util.Scanner;
 
-public class RecursividadFelipe {
+public class problema1_RecursividadFelipe {
 static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {

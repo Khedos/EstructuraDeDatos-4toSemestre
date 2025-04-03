@@ -1,14 +1,12 @@
-package ordenamiento;
+package unidad2;
 
 import java.util.Scanner;
 
 public class RecursividadArreglo {
 	static Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
-		/*Busca un elemento en un arreglo*/
-		
-		int [] arreglo = {0};
-		System.out.println("Ingrese el numero que desea buscar: ");
+		int [] arreglo = {1, 2, 4, 6, 9};
+		System.out.println("Ingrese el numero que desea buscar del 1 al 10: ");
 		int num = scanner.nextInt();
 		
 		boolean bool = (metodoArreglo(arreglo,num,arreglo.length-1));

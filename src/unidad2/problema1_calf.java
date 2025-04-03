@@ -1,6 +1,6 @@
-package ordenamiento;
+package unidad2;
 import java.util.Scanner;
-public class Calif {
+public class problema1_calf {
 static Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,7 +12,7 @@ static Scanner scanner = new Scanner(System.in);
 			calificaciones[i] = scanner.nextInt();
 		}
 		
-		System.out.println(metodoRecursivo(calificaciones, calificaciones.length - 1, 0));
+		System.out.println("Calificaión total "+metodoRecursivo(calificaciones, calificaciones.length - 1, 0));
 	}
 	
 	public static float metodoRecursivo(int calificaciones [], int tamanio, float suma) {
@@ -21,7 +21,6 @@ static Scanner scanner = new Scanner(System.in);
 			}
 			else {
 				suma += calificaciones[tamanio];
-				 System.out.println(suma);
 				return metodoRecursivo(calificaciones, tamanio-1,suma);
 				
 			}

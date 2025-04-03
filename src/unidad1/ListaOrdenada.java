@@ -1,4 +1,4 @@
-package ordenamiento;
+package unidad1;
 
 public class ListaOrdenada {
 	private Nodo cabeza;
